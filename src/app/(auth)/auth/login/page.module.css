@@ -1,0 +1,109 @@
+.loginPage {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.back {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    transform: translate(-4%, -4%);
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #d7d7db;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    width: 100%;
+}
+
+.form h3 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.inputContainer {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputContainer label {
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.inputContainer input {
+    padding: 13px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.inputContainer input:focus {
+    outline: none;
+
+}
+
+.submit {
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.content h4 {
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.google {
+    width: 100%;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid #2f2f2f;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.footer {
+    font-size: 0.9rem;
+    margin: 15px 0px;
+    text-align: center;
+    color: #2f2f2f;
+
+}
+
+.footer a {
+    color: black;
+    font-weight: bold;
+}

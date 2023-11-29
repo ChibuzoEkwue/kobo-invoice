@@ -6,11 +6,7 @@ const Navigation = () => {
 		<header className={styles.header}>
 			<nav className={`${styles.nav} container`}>
 				<div className={styles.logo}>KOBO</div>
-				<ul className={styles.navList}>
-					<li>Home</li>
-					<li>Blog</li>
-					<li>Resources</li>
-				</ul>
+				
 				<ul>
 					<li>
 						<Link href={"/auth/login"}>Login</Link>

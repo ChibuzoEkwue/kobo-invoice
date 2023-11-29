@@ -28,3 +28,7 @@
     text-align: center;
     color: var(--primary-color);
 }
+
+.homepage .content a{
+    font-size: 1.3rem;
+}

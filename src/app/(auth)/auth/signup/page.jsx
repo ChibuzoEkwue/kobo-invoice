@@ -2,13 +2,14 @@ import React from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
-import { FaHome } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa6";
+
 
 const SignUpPage = () => {
 	return (
 		<main className={styles.loginPage}>
 			<Link href="/" className={styles.back}>
-				<FaHome />
+				<FaArrowLeft /> <span> Go Back</span>
 			</Link>
 			<div className={styles.content}>
 				<form className={styles.form}>
@@ -39,7 +40,7 @@ const SignUpPage = () => {
 
 				<button className={styles.google}>
 					<FcGoogle />
-					Signup with Google
+					Sign up with Google
 				</button>
 				<p className={styles.footer}>
 					Have an account <Link href={"/auth/login"}>login</Link>

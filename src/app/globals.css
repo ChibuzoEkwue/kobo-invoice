@@ -15,9 +15,9 @@
     margin: 0 auto;
 }
 
-/* body {
-    background-color: var(--bg-color);
-} */
+body {
+font-family: 'Inter';
+}
 
 .cta {
     padding: 10px 20px;
